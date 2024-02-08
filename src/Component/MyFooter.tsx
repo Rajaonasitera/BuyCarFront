@@ -1,4 +1,4 @@
-import React, { FunctionComponent } from "react";
+import React from "react";
 import '../Assets/css/MyFooter.css'
 import logofoot from "../Assets/img/logo1.jpg"
 

@@ -1,4 +1,4 @@
-import React, { FunctionComponent } from "react";
+import React from "react";
 import popo from '../Assets/img/l.png';
 import '../Assets/css/MyHeader.css'
 import { NavLink } from "react-router-dom";

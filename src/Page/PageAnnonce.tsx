@@ -1,4 +1,4 @@
-import React, { FunctionComponent } from "react";
+import React  from "react";
 import MyHeader from "../Component/MyHeader.tsx";
 import Annonce from "../Component/Annonce.tsx";
 import MyFooter from "../Component/MyFooter.tsx";
