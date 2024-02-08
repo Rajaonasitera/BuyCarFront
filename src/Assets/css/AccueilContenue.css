@@ -1,0 +1,221 @@
+.banniere{
+    height: 500px;
+    background-size: cover;
+    background-position: -10%;
+    position: relative;
+    padding-top: 12px;
+
+    text-align: center;
+    /* background-color: palevioletred; */
+    background-image: url("../img/faites-course-autoroute-entre-voitures-coupe-noires-rouges.jpg");
+/* background: cover; */
+    /* opacity: 15px; */
+}
+
+.filtre
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* display: flex;*/
+    /* align-items: center;  */
+    /* justify-content: center; */
+    /* color: white; */
+    
+}
+.banniere h1{
+    /* font-size: 20px; */
+    
+}
+.textAcc{
+    color: white;
+    /* margin-top: 50px; */
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+}
+.buttAcc{
+    height: 50px;
+    width: 150px;
+    background-color: white;
+    margin: auto;
+    /* text-align: center; */
+    /* align-items: ; */
+    padding-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.buttAcc:hover{
+    cursor: pointer;
+    background-color: rgb(199, 15, 15);
+    color: white;
+    transition: 0.5s;
+}
+.contenueAcc{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.contenueAccGauche{
+    width: 30%;
+    height: 800px;
+    /* background-color: aqua; */
+    padding: 0px;
+    margin-right: 3%;
+    border: 1px solid rgba(150, 148, 148, 0.164);
+}
+.contenueAccDroite{
+    width: 60%;
+    height: 800px;
+    /* background-color: bisque; */
+    border: 1px solid rgba(150, 148, 148, 0.164);
+    text-align: center;
+}
+.contenueAccDroiteall{
+    height: 86.5%;
+    overflow-y: scroll;
+}
+.contenueAccDroite h2{
+    margin-top: 25px;
+    /* position: fixed; */
+
+}
+.titreCont{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* padding: 5px; */
+    /* text-align: center; */
+    /* margin: 0px; */
+}
+.titreCont p{
+    font-size: 70%;
+    margin: 0%;
+    color: white;
+}
+.selectCat h2{
+    margin-left: 5%;
+}
+.allcatselect{
+    height: 250px;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.356);
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    align-items: start;
+    padding-bottom: 20px;
+    /* flex-wrap: wrap; */
+}
+.allcatselect input{
+    width: 10px;
+    height: 10px;
+    /* border-radius:10px ; */
+}
+.allcatselect p{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin-left: 5%;
+    /* align-items: start; */
+    /* justify-content: center; */
+}
+.allcatselect{
+    display: none;
+}
+.carrebox{
+    width: 10px;
+    height: 10px;
+    border: 1px solid black;
+    margin-right: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+.carrebox:hover{
+    background-color: rgb(27, 27, 160);
+}
+
+.buttKely{
+    font-size: 25px;
+
+    /* width: 20px;
+    height: 20px;
+    font-size: 15px;
+    border: 1px solid rgb(119, 115, 115);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px; */
+    cursor: pointer;
+
+}
+.hautselect{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* width:100%; */
+}
+.hautselect h2{
+    font-size: 20px;
+}
+
+
+@media screen and (max-width:620px){
+    .titreCont p{
+        font-size: 70%;
+    }
+}
+@media screen and (max-width:550px){
+    .banniere{
+        height: 300px;
+    }
+    .textAcc{
+        color: white;
+        font-size: 80%;
+        /* margin-top: 50px; */
+        width: 100%;
+    }
+    .contenueAcc{
+        flex-direction: column;
+    }
+    .contenueAccGauche{
+        /* display: none; */
+        width: 100%;
+        height: 200px;
+    }
+    .contenueAccDroite{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width:351px){
+    .banniere{
+        height: 300px;
+    }
+    .textAcc{
+        color: white;
+        font-size: 60%;
+        margin-top: 20vw;
+        width: 100%;
+    }
+    
+}
+
+
+
