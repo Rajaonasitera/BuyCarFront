@@ -90,7 +90,7 @@ function Details() {
                   <span className="titrekely">Energie : </span>
                   {annonce.voiture.energie.libelle}
                 </div>
-                <h1 className="display-5 fw-bolder"></h1>
+                {/* <h1 className="display-5 fw-bolder"></h1> */}
 
                 <h3>Description</h3>
                 <p className="lead">{annonce.voiture.description}</p>
