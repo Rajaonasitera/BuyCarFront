@@ -1,6 +1,6 @@
 import React from "react";
 import '../Assets/css/MyFooter.css'
-import logofoot from "../Assets/img/logo1.jpg"
+// import logofoot from "../Assets/img/logo1.jpg"
 
 function MyFooter (){
         return (
