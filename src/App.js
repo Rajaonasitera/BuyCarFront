@@ -6,7 +6,6 @@ import Accueil from './Page/Accueil.tsx';
 import Login from './Page/Login.tsx';
 import Annonce from './Page/PageAnnonce.tsx';
 import PageDetails from './Page/PageDetails.tsx';
-import PageProfil from './Page/PageProfil.tsx';
 import PageChat from './Page/PageChat.tsx';
 import PageHistorique from './Page/PageHistorique.tsx';
 import PageRecherche from './Page/PageRecherche.tsx';
@@ -36,7 +35,6 @@ function App() {
         <Route path="/Annonce" element={<Annonce />}/>
         <Route path="/PageDetails" element={<PageDetails />}/>
         <Route path="/Details/:id" element={<PageDetails />}/>
-        <Route path="/Profil" element={<PageProfil />}/>
         <Route path="/Chat" element={<PageChat />}/>
         <Route path="/Historique" element={<PageHistorique />}/>
         <Route path="/Recherche" element={<PageRecherche />}/>

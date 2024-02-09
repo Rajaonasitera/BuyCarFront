@@ -22,15 +22,15 @@ function MyFooter (){
                 </div>
                 <div className="foot3">
                     <h2>Page</h2>
-                    <p><a href="#">Accueil</a></p>
-                    <p><a href="#">Favoris</a></p>
-                    <p><a href="#">Se connecter</a></p>
-                    <p className="dwn"><a href="#">Download apk</a></p>
-                    <p className="dw"><a href="#">%</a></p>
+                    <p><a href="/List">Accueil</a></p>
+                    <p><a href="/List">Favoris</a></p>
+                    <p><a href="/List">Se connecter</a></p>
+                    <p className="dwn"><a href="/List">Download apk</a></p>
+                    <p className="dw"><a href="/List">%</a></p>
                 </div>
                 <div className="foot4">
                     <h2>Download APK</h2>
-                    <a href="">http//BuyCar.download.com</a>
+                    <a href="/List">http//BuyCar.download.com</a>
                     <div className="recherche">
                         <input type="text" name="" id="" />
                     </div>
