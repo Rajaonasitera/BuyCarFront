@@ -32,7 +32,7 @@ function MyHeader(){
                     <div className="navdroitebas">
                     <NavLink to="/">ACCUEIL</NavLink>
                         <NavLink to="/Annonce">FAVORIS</NavLink>
-                        <NavLink to="/Annonce">ANNONCES</NavLink>
+                        <NavLink to="/Historique">HISTORIQUE</NavLink>
                         <NavLink to="/Profil">PROFIL</NavLink>
                         {/* <a href="#">SERVICES</a>
                         <a href="#">SHOP</a>

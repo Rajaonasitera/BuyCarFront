@@ -8,6 +8,7 @@ import Annonce from './Page/PageAnnonce.tsx';
 import PageDetails from './Page/PageDetails.tsx';
 import PageProfil from './Page/PageProfil.tsx';
 import PageChat from './Page/PageChat.tsx';
+import PageHistorique from './Page/PageHistorique.tsx';
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
         <Route path="/Details/:id" element={<PageDetails />}/>
         <Route path="/Profil" element={<PageProfil />}/>
         <Route path="/Chat" element={<PageChat />}/>
+        <Route path="/Historique" element={<PageHistorique />}/>
           {/* <Route index element={<Home />} />
           <Route path="blogs" element={<Blogs />} />
           <Route path="contact" element={<Contact />} />
