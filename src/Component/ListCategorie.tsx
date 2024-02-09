@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, {  useState } from "react";
 import "../Assets/css/styles.css";
 import { NavLink } from "react-router-dom";
 function ListCategorie() {
@@ -25,9 +25,9 @@ function ListCategorie() {
     
   };
 
-  useEffect(() => {
+  // useEffect(() => {
     fnct();
-  }, []);
+  // }, []);
   return (
     <>
       <section className="py-5">

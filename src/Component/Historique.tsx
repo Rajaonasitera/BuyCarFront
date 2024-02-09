@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "../Assets/css/Historique.css";
 // import logofoot from "../Assets/img/logo1.jpg"
@@ -39,9 +39,9 @@ function Historique() {
     }
   };
 
-  useEffect(() => {
+//   useEffect(() => {
     fnct();
-  }, []);
+//   }, []);
 
   if (token != null) {
     return (

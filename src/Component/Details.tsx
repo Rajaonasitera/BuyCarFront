@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, {  useState } from "react";
 // import popo from '../Assets/img/logo1.jpg';
 import "../Assets/css/Details.css";
 import { NavLink, useNavigate, useParams } from "react-router-dom";
@@ -30,9 +30,9 @@ function Details() {
     // console.log(response.status);
   };
 
-  useEffect(() => {
+  // useEffect(() => {
     fnct();
-  }, []);
+  // }, []);
   return (
     <>
       {fetchOk === true && (

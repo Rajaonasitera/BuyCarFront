@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, {  useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import "../Assets/css/Annonce.css";
 // import logofoot from "../Assets/img/logo1.jpg"
@@ -93,9 +93,9 @@ function Recherche() {
       setVitesse(response4.object);
     };
   
-    useEffect(() => {
-    fnct();
-  }, [fnct]);
+    // useEffect(() => {
+      fnct();
+    // }, []);
 //     let url =
 //       "https://webservicevoiture-production.up.railway.app/annonce/listfavoris";
 //     // let token = localStorage.getItem("Token");
