@@ -17,13 +17,16 @@ function Annonce() {
       "https://webservicevoiture-production.up.railway.app/annonce/listfavoris";
     // let token = localStorage.getItem("Token");
     // console.log("tok :" + token);
+    let obj ={
+      token:token
+    }
     let response = (await fetch(url, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
         Authorization: "Bearer " + token,
       },
-      body: JSON.stringify(token),
+      body: JSON.stringify(obj),
     })) as any;
 
     console.log(response);
