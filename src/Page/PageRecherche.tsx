@@ -16,4 +16,3 @@ class PageRecherche extends React.Component{
 }
 
 export default PageRecherche;
-

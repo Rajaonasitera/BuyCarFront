@@ -61,7 +61,7 @@ function ListCategorie() {
                             <div className="bi-star-fill"></div>
                           </div>
 
-                          {a.prix}
+                          {a.prix} MGA
                         </div>
                       </div>
                       <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
