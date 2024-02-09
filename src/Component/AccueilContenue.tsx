@@ -1,4 +1,4 @@
-import React from "react";
+// import React, { useEffect} from "react";
 // import { IconName } from "react-icons/ci";
 import "../Assets/css/AccueilContenue.css";
 import ListCategorie from "./ListCategorie.tsx";
@@ -9,6 +9,18 @@ function AccueilContenue() {
   
   // const [x, setX] = useState(false);
   // let tab = [1, 2, 3, 4, 5];
+
+  // let recher = useState(false);
+  // // const fnct = async () => {
+  //   let token = localStorage.getItem("Token");
+  //   console.log("tok :" + token);
+    
+  // };
+
+  // useEffect(() => {
+  //   fnct();
+  // }, []);
+
   return (
     <>
       <div className="banniere">
@@ -31,15 +43,7 @@ function AccueilContenue() {
       </div>
 
       <div className="contenueAcc">
-        <div className="contenueAccGauche">
-          {/* <p>jhdkzhd</p> */}
-          <div className="titreCont">
-            <p>Trouvez votre voiture</p>
-          </div>
-          <div className="selectCat">
-            
-          </div>
-        </div>
+        
         <div className="contenueAccDroite">
           <h2>Explorez nos Offres Exceptionnelles de Voitures d'Occasion!</h2>
           <div className="contenueAccDroiteall">

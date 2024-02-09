@@ -26,10 +26,7 @@
     /* color: white; */
     
 }
-.banniere h1{
-    /* font-size: 20px; */
-    
-}
+
 .textAcc{
     color: white;
     /* margin-top: 50px; */
@@ -67,15 +64,23 @@
     margin-bottom: 50px;
 }
 .contenueAccGauche{
-    width: 30%;
+    width: 100%;
     height: 800px;
     /* background-color: aqua; */
     padding: 0px;
     margin-right: 3%;
     border: 1px solid rgba(150, 148, 148, 0.164);
 }
+
+.recherchee{
+    width: 90%;
+    height: 500px;
+    /* align-items: center; */
+    margin: auto;
+    margin-top: 20px;
+}
 .contenueAccDroite{
-    width: 60%;
+    width: 90%;
     height: 800px;
     /* background-color: bisque; */
     border: 1px solid rgba(150, 148, 148, 0.164);
@@ -105,6 +110,19 @@
     font-size: 70%;
     margin: 0%;
     color: white;
+}
+.selectCat{
+    /* display: flex; */
+    width: 100%;
+    height: 400px;
+    /* flex-direction: row; */
+    /* overflow-y: auto; */
+    
+    /* flex-wrap: wrap; */
+    /* justify-content: center;
+    align-items: center; */
+    text-align: center;
+    margin-top: 20px;
 }
 .selectCat h2{
     margin-left: 5%;
@@ -173,7 +191,19 @@
 .hautselect h2{
     font-size: 20px;
 }
+.rech{
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    /* padding-top: 10px; */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    margin: auto;
 
+}
 
 @media screen and (max-width:620px){
     .titreCont p{
@@ -196,11 +226,19 @@
     .contenueAccGauche{
         /* display: none; */
         width: 100%;
-        height: 200px;
+        height: 500px;
     }
     .contenueAccDroite{
         width: 100%;
     }
+    /* .selectCat{
+        display: flex;
+        flex-direction: column;
+        overflow-y: scroll;
+        margin:0px;
+        /* overflow-x: scroll; */
+
+    /* } */ 
     
 }
 
