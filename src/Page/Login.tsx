@@ -20,13 +20,13 @@ function Login() {
               
 
               <div className="form-outline mb-4">
-                <input type="email" id="email" className="form-control" name="email"/>
-                <label className="form-label" for="form3Example3" value={"jean@gmail.com"}>Email</label>
+                <input type="email" id="email" className="form-control" name="email" value={"jean@gmail.com"}/>
+                <label className="form-label" for="form3Example3" >Email</label>
               </div>
 
               <div className="form-outline mb-4">
-                <input type="password" id="password" className="form-control" name="password"/>
-                <label className="form-label" htmlFor="form3Example4" value={"1234"}>Mots de passe</label>
+                <input type="password" id="password" className="form-control" value={"1234"} name="password"/>
+                <label className="form-label" htmlFor="form3Example4" >Mots de passe</label>
               </div>
               <div className="form-check d-flex justify-content-center mb-4">
                 {/* <input className="form-check-input me-2" type="checkbox" value="" id="form2Example33" checked /> */}
