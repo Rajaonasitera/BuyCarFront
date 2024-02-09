@@ -7,7 +7,7 @@ function ListCategorie() {
 
   const fnct = async () => {
       let url =
-        "https://webservicevoiture-production.up.railway.app/annonce/list";
+        "https://buycarwebservice-production.up.railway.app/annonce/list";
       // let token = localStorage.getItem("Token");
       // console.log("tok :" + token);
       let response = (await fetch(url, {

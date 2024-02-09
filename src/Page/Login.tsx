@@ -46,7 +46,7 @@ function Login() {
                 };
                 console.log(auth);
                 let url =
-                  "https://webservicevoiture-production.up.railway.app/auth/authenticate";
+                  "https://buycarwebservice-production.up.railway.app/auth/authenticate";
                 let response = await fetch(url, {
                   method: "POST",
                   headers: {

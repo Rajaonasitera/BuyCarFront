@@ -14,7 +14,7 @@ function Annonce() {
   }
   const fnct = async () => {
     let url =
-      "https://webservicevoiture-production.up.railway.app/annonce/listfavoris";
+      "https://buycarwebservice-production.up.railway.app/annonce/listfavoris";
     // let token = localStorage.getItem("Token");
     // console.log("tok :" + token);
     let obj ={

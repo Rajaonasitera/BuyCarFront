@@ -17,7 +17,7 @@ function Historique() {
         "token":token
     }
     let url =
-      "https://webservicevoiture-production.up.railway.app/historique/list";
+      "https://buycarwebservice-production.up.railway.app/historique/list";
     // let token = localStorage.getItem("Token");
     // console.log("tok :" + token);
     let response = (await fetch(url, {

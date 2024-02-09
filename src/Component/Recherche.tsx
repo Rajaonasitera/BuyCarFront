@@ -22,7 +22,7 @@ function Recherche() {
     const fnct = async () => {
         if (test===false) {
             let url =
-            "https://webservicevoiture-production.up.railway.app/annonce/list";
+            "https://buycarwebservice-production.up.railway.app/annonce/list";
           // let token = localStorage.getItem("Token");
           // console.log("tok :" + token);
           let response = (await fetch(url, {
@@ -41,7 +41,7 @@ function Recherche() {
       let token = localStorage.getItem("Token");
       console.log("tok :" + token);
       let response1 = await fetch(
-        "https://webservicevoiture-production.up.railway.app/categorie/list",
+        "https://buycarwebservice-production.up.railway.app/categorie/list",
         {
           method: "GET",
           headers: {
@@ -54,7 +54,7 @@ function Recherche() {
       setCategorie(response1.object);
   
       let response2 = await fetch(
-        "https://webservicevoiture-production.up.railway.app/marque/list",
+        "https://buycarwebservice-production.up.railway.app/marque/list",
         {
           method: "GET",
           headers: {
@@ -67,7 +67,7 @@ function Recherche() {
       setMarque(response2.object);
   
       let response3 = await fetch(
-        "https://webservicevoiture-production.up.railway.app/energie/list",
+        "https://buycarwebservice-production.up.railway.app/energie/list",
         {
           method: "GET",
           headers: {
@@ -80,7 +80,7 @@ function Recherche() {
       setEnergie(response3.object);
   
       let response4 = await fetch(
-        "https://webservicevoiture-production.up.railway.app/boite_vitesse/list",
+        "https://buycarwebservice-production.up.railway.app/boite_vitesse/list",
         {
           method: "GET",
           headers: {
@@ -97,7 +97,7 @@ function Recherche() {
       fnct();
     // }, []);
 //     let url =
-//       "https://webservicevoiture-production.up.railway.app/annonce/listfavoris";
+//       "https://buycarwebservice-production.up.railway.app/annonce/listfavoris";
 //     // let token = localStorage.getItem("Token");
 //     // console.log("tok :" + token);
 //     let response = (await fetch(url, {
@@ -238,7 +238,7 @@ function Recherche() {
                     consoMax:cmax.value
                   }
                   let rep = await fetch(
-                      "https://webservicevoiture-production.up.railway.app/annonce/rechercher",
+                      "https://buycarwebservice-production.up.railway.app/annonce/rechercher",
                       {
                         method: "POST",
                         headers: {

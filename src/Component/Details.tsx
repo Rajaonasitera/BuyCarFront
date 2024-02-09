@@ -11,7 +11,7 @@ function Details() {
   let nav = useNavigate()
   const fnct = async () => {
     let url =
-      "https://webservicevoiture-production.up.railway.app/annonce/get/" + id;
+      "https://buycarwebservice-production.up.railway.app/annonce/get/" + id;
     // let token = localStorage.getItem("Token");
     // console.log("tok :" + token);
     let response = (await fetch(url, {
@@ -127,7 +127,7 @@ function Details() {
                           "token" : token
                         }
                       let url =
-                        "https://webservicevoiture-production.up.railway.app/annonce/favoris";
+                        "https://buycarwebservice-production.up.railway.app/annonce/favoris";
                       let response = await fetch(url, {
                         method: "POST",
                         headers: {
